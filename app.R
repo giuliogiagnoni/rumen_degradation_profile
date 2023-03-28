@@ -228,7 +228,7 @@ ui <- navbarPage("Navigation Bar",
 		 
 		  tabPanel("References",
 			   sidebarLayout(
-                              sidebarPanel(h3("References"),
+                              sidebarPanel(h3("References")),
 				   mainPanel(includeHTML("rumendegradationbib.html"))))
 )
 
