@@ -228,8 +228,13 @@ ui <- navbarPage("Navigation Bar",
                               conditionalPanel(
                                 condition = "input.lagtime == 'Yes'", tableOutput("finaltableNDF2")),
                               downloadButton('downloadNDF',"Download final table (excel)"))
-                          ))
-                              
+                          )),
+		  tabPanel("References",
+			    sidebarLayout(
+                            sidebarPanel(),
+                            mainPanel(
+                               includeHTML("rumendegradatiobib.html")
+				    )
 )
 
 
