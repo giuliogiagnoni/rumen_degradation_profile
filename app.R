@@ -17,10 +17,6 @@ library(DT)     # table display
 
 library(lme4)
 
-rsconnect::setAccountInfo(name='gigiapps',
-			  token='FD86AB9B1D1454829C495B4BC83152FE',
-			  secret='OThpefqhEzYhwQxO9AegGuCj6Z2Y20tCKEXD76WP')
-
 ui <- navbarPage("Navigation Bar",
                  tabPanel("Introduction",
                     
