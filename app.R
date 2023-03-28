@@ -231,7 +231,9 @@ ui <- navbarPage("Navigation Bar",
                           )),
 		 
 		  tabPanel("References",
-			    fluidPage(includeHTML("rumendegradationbib.html")))
+			   sidebarLayout(
+                              sidebarPanel(),
+				   mainpanel(includeHTML("rumendegradationbib.html"))))
 )
 
 
