@@ -232,7 +232,7 @@ ui <- navbarPage("Navigation Bar",
 		 
 		  tabPanel("References",
 			   sidebarLayout(
-                              sidebarPanel(),
+                              sidebarPanel(h3("References"),
 				   mainPanel(includeHTML("rumendegradationbib.html"))))
 )
 
