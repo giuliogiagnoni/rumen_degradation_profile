@@ -234,7 +234,7 @@ ui <- navbarPage("Navigation Bar",
                             sidebarPanel(),
                             mainPanel(
                                includeHTML("rumendegradatiobib.html")
-				    )
+				    )))
 )
 
 
